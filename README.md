@@ -5,7 +5,7 @@
 ##### time ./randomGenerator 10 10000000 | ./myPrimeCounter
 
 ## The original primeCounter time
-<img width="685" alt="image" src="https://github.com/taltosiano/task2/assets/94299489/349cb3ea-2a8c-49e5-bf75-a4fdeb4cefa2">
+<img width="672" alt="image" src="https://github.com/taltosiano/task2/assets/94299489/ff3c868e-0b38-4b07-a835-87a8b5a43809">
 
 
 ## My prime counter
