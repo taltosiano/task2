@@ -1,0 +1,628 @@
+desc: (none)
+cmd: ./myPrimeCounter
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1072097191
+mem_heap_B=326504
+mem_heap_extra_B=256
+mem_stacks_B=0
+heap_tree=detailed
+n4: 326504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 280000 0x10983C: enqueue (in /workspaces/task2/myPrimeCounter)
+  n0: 280000 0x10969E: main (in /workspaces/task2/myPrimeCounter)
+ n0: 40000 0x1095DE: main (in /workspaces/task2/myPrimeCounter)
+ n1: 4096 0x48EFD03: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48FFECF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48FECA3: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x48FFF85: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48D227F: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 4096 0x48D1161: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x1096BD: main (in /workspaces/task2/myPrimeCounter)
+ n0: 2408 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=2205395001
+mem_heap_B=126384
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2981399289
+mem_heap_B=86360
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=4160672873
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=5119531163
+mem_heap_B=166432
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=6261904501
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=7562984964
+mem_heap_B=166432
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=detailed
+n5: 166432 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 120000 0x10983C: enqueue (in /workspaces/task2/myPrimeCounter)
+  n0: 120000 0x10969E: main (in /workspaces/task2/myPrimeCounter)
+ n0: 40000 0x1095DE: main (in /workspaces/task2/myPrimeCounter)
+ n1: 4096 0x48EFD03: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48FFECF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48FECA3: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x48FFF85: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48D227F: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 4096 0x48D1161: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x1096BD: main (in /workspaces/task2/myPrimeCounter)
+ n1: 2176 0x40149DA: allocate_dtv (dl-tls.c:286)
+  n1: 2176 0x40149DA: _dl_allocate_tls (dl-tls.c:532)
+   n1: 2176 0x4854322: allocate_stack (allocatestack.c:622)
+    n1: 2176 0x4854322: pthread_create@@GLIBC_2.2.5 (pthread_create.c:660)
+     n0: 2176 0x109645: main (in /workspaces/task2/myPrimeCounter)
+ n0: 160 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=8618495105
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=10016087355
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=11267485970
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=12036155206
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=13181922638
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=14573594204
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=15475488344
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=16814690355
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=17743693737
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=18555207822
+mem_heap_B=526624
+mem_heap_extra_B=376
+mem_stacks_B=0
+heap_tree=peak
+n3: 526624 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 480000 0x10983C: enqueue (in /workspaces/task2/myPrimeCounter)
+  n0: 480000 0x10969E: main (in /workspaces/task2/myPrimeCounter)
+ n0: 40000 0x1095DE: main (in /workspaces/task2/myPrimeCounter)
+ n0: 6624 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=19610758260
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=20683277505
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=21550183386
+mem_heap_B=246480
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=22325885466
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=23360882087
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=24881083141
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=25895432705
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=27205114548
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=28473484932
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=29790700003
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=31172121832
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=32033235057
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n4: 46360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40000 0x1095DE: main (in /workspaces/task2/myPrimeCounter)
+ n1: 4096 0x48EFD03: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48FFECF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48FECA3: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x48FFF85: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48D227F: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 4096 0x48D1161: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x1096BD: main (in /workspaces/task2/myPrimeCounter)
+ n1: 2176 0x40149DA: allocate_dtv (dl-tls.c:286)
+  n1: 2176 0x40149DA: _dl_allocate_tls (dl-tls.c:532)
+   n1: 2176 0x4854322: allocate_stack (allocatestack.c:622)
+    n1: 2176 0x4854322: pthread_create@@GLIBC_2.2.5 (pthread_create.c:660)
+     n0: 2176 0x109645: main (in /workspaces/task2/myPrimeCounter)
+ n0: 88 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=32826894511
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=34016342178
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=35277292446
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=36477328849
+mem_heap_B=166432
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=37299149746
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=38564038228
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=39360474433
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=40616318790
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=41420583658
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=42196969485
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=42981765466
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=43766564379
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=44950006116
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=45734814751
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=46909417481
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=47699438225
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=48499230394
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=49289861730
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=50105438056
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=51266908360
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=52067771123
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=52877053719
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=detailed
+n5: 126408 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 80000 0x10983C: enqueue (in /workspaces/task2/myPrimeCounter)
+  n0: 80000 0x10969E: main (in /workspaces/task2/myPrimeCounter)
+ n0: 40000 0x1095DE: main (in /workspaces/task2/myPrimeCounter)
+ n1: 4096 0x48EFD03: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48FFECF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48FECA3: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x48FFF85: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48D227F: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 4096 0x48D1161: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x1096BD: main (in /workspaces/task2/myPrimeCounter)
+ n1: 2176 0x40149DA: allocate_dtv (dl-tls.c:286)
+  n1: 2176 0x40149DA: _dl_allocate_tls (dl-tls.c:532)
+   n1: 2176 0x4854322: allocate_stack (allocatestack.c:622)
+    n1: 2176 0x4854322: pthread_create@@GLIBC_2.2.5 (pthread_create.c:660)
+     n0: 2176 0x109645: main (in /workspaces/task2/myPrimeCounter)
+ n0: 136 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=53646135713
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=54426259153
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=55210222071
+mem_heap_B=166432
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=55984090270
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=56753279356
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=57525159412
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=58305590834
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=59081380180
+mem_heap_B=126408
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=59877532145
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=60659838231
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n4: 46360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40000 0x1095DE: main (in /workspaces/task2/myPrimeCounter)
+ n1: 4096 0x48EFD03: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48FFECF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48FECA3: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x48FFF85: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48D227F: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 4096 0x48D1161: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x1096BD: main (in /workspaces/task2/myPrimeCounter)
+ n1: 2176 0x40149DA: allocate_dtv (dl-tls.c:286)
+  n1: 2176 0x40149DA: _dl_allocate_tls (dl-tls.c:532)
+   n1: 2176 0x4854322: allocate_stack (allocatestack.c:622)
+    n1: 2176 0x4854322: pthread_create@@GLIBC_2.2.5 (pthread_create.c:660)
+     n0: 2176 0x109645: main (in /workspaces/task2/myPrimeCounter)
+ n0: 88 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=61436601431
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=62225481136
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=63023711851
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=63794846344
+mem_heap_B=46360
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=64593892735
+mem_heap_B=166432
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=65394024439
+mem_heap_B=86384
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
